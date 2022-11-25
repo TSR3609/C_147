@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>C_147_Project</title>
+        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-entity position = "0 0 15"><a-camera></a-camera></a-entity>
+            <a-sky src = "sky.jpg"></a-sky>
+            <a-plane position = "0 0 0.5" rotation = "-90 5 0" width = "12" height = "9" src = "ground.png"></a-plane>
+            <a-plane position = "0 0 0.5" rotation = "-90 0 0" width = "10" height = "5" src = "carpet.jpg"></a-plane>
+            <a-plane position = "0 4 -4" rotation = "0 0 0" width = "15" height = "9" src = "wall.jpeg"></a-plane>
+            <a-plane position = "-4 4 -4" rotation = "0 0 0 " width = "3" height = "3" src = "left-poster.png"></a-plane>
+            <a-plane position = "4 4 -4" rotation = "0 0 0 " width = "3" height = "3" src = "middle-poster.png"></a-plane>
+            <a-plane position = "0 1.5 0.5" rotation = "90 0 0" radius = "0.5" width = "0.5" height = "1.7" src = "dining-table.jpeg"></a-plane>
+            #table
+            <a-cylinder position = "0 0.6 0.5" radius = "0.5" width = "2" height = "1.2" src = "dining-table.jpeg"></a-cylinder>
+            <a-cylinder position = "0 1.2 0.5" rotation = "180 0 0 " radius = "1" width = "2.5" height = "0.2" src = "dining-table.jpeg"></a-cylinder>
+            #chair1left
+            <a-cylinder position = "-2 0.6 0.5" rotation = "180 0 0" radius = "0.2" width = "0.1" height = "0.7" src = "chair.jpeg"></a-cylinder>
+            <a-cylinder position = "-2 1 0.5" rotation = "180 0 0 " radius = "0.5" width = "0.1" height = "0.2" src = "chair.jpeg"></a-cylinder>
+            <a-cylinder position = "-2.4 1.4 0.5" rotation = "90 90 0 " radius = "0.5" width = "0.1" height = "0.2" src = "chair.jpeg"></a-cylinder>
+
+            #rightchair
+            <a-cylinder position = "2 0.6 0.5" rotation = "180 0 0" radius = "0.2" width = "0.1" height = "0.7" src = "chair.jpeg"></a-cylinder>
+            <a-cylinder position = "2 1 0.5" rotation = "180 0 0 " radius = "0.5" width = "0.1" height = "0.2" src = "chair.jpeg"></a-cylinder>
+            <a-cylinder position = "2.4 1.4 0.5" rotation = "90 90 0 " radius = "0.5" width = "0.1" height = "0.2" src = "chair.jpeg"></a-cylinder>
+
+        </a-scene>
+    </html>
